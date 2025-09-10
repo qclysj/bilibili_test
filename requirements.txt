@@ -1,4 +1,0 @@
-pytest-xdist
-pytest-ordering
-pytest-rerunfailures
-allure-pytest
