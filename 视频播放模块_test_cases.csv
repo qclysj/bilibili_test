@@ -1,5 +1,0 @@
-﻿用例编号,用例标题,项目/模块,优先级,前置条件,测试步骤,测试数据,预期结果
-TC009,播放视频功能测试,视频播放模块,高,用户已登录哔哩哔哩网站并搜索到视频,"1. 在搜索结果页面中，点击第一个视频
-2. 视频页面加载完成后，点击播放按钮",{'video_link': '#i_cecream > div > div:nth-child(2) > div.search-content--gray.search-content > div > div > div > div.video.i_wrapper.search-all-list > div > div:nth-child(1) > div > div.bili-video-card__wrap > a'},视频成功播放
-TC010,播放视频功能测试,视频播放模块,中,用户已登录哔哩哔哩网站并搜索到视频,"1. 在搜索结果页面中，点击第一个视频
-2. 视频页面加载完成后，点击播放按钮",{'video_link': '#invalid-video-link'},视频无法播放，显示错误信息
